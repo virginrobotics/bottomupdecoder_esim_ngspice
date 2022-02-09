@@ -39,8 +39,11 @@ while doing this project for the SFAL hackathon.
 
 <h3> A 4:16 Decoder </h3>
 
-A 4:16 decoder has the following truth table
+A 4:16 decoder has the following truth table , as referenced from NI Labs [here](https://zone.ni.com/reference/en-XX/help/375482B-01/multisim/4514/)
+
 ![](images/decodertruthtabloid.png)
+
+Here's how an implementation using 2:4 decoders looks like. Image courtesy 
 
 
 

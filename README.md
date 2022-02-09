@@ -47,6 +47,18 @@ Here's how an implementation using 2:4 decoders looks like. Image taken from [he
 
 ![](images/decodersubmodules.png)
 
+<h2>NOT gate submodule</h2>
+
+A NOT gate was implemented using a pmos and nmos mosfet as shown below. 
+
+![](images/notschematic.png)
+
+When the input's a logic high, both nmos and pmos are turned on and all the electrons flow to the drain, leaving output pin low. Conversely a logic low input turns off the nmos but the pmos is high, providing a logic high at the output. 
+
+The same schematic was used as a subcircuit for a the custom made NOT library part, that can now be used in any schematic that needs an inverter. The ngspice simulation along with the NOT gate as a submodule is shown below.
+
+![](images/notgateoutput.png)
+
 
 
 

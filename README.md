@@ -43,7 +43,9 @@ A 4:16 decoder has the following truth table , as referenced from NI Labs [here]
 
 ![](images/decodertruthtabloid.png)
 
-Here's how an implementation using 2:4 decoders looks like. Image courtesy 
+Here's how an implementation using 2:4 decoders looks like. Image taken from [here](https://qphs.fs.quoracdn.net/main-qimg-121a306eed7896d98b4dc457c76f837c)
+
+![](images/decodersubmodules.png)
 
 
 

@@ -65,9 +65,9 @@ A three input AND gates is implemented using 4pmos and 4nmos mosfets where the o
 
 ![](image/andgateschematic.png)
 
-Here's the AND submodule with it's simulated output in ngspice
+Here's the AND submodule with a NOT submodule to test compaitinility with the ngspice simulation output
 
-![](image/andoutput.png)
+![](image/andnotoutput.png)
 
 
 

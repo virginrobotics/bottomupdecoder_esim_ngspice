@@ -40,7 +40,7 @@ while doing this project for the SFAL hackathon.
 <h3> A 4:16 Decoder </h3>
 
 A 4:16 decoder has the following truth table
-
+![](images/decodertruthtabloid.png)
 
 
 

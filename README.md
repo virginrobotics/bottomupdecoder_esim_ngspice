@@ -59,6 +59,15 @@ The same schematic was used as a subcircuit for a the custom made NOT library pa
 
 ![](images/notgateoutput.png)
 
+<h2>AND gate submodule</h2>
+
+A three input AND gates is implemented using 4pmos and 4nmos mosfets where the output goes to logic high only when all three inputs go to logic high which include two data inputs and an enable pin. The AND subcircuits is used to create it's own library part for use in higher levels. 
+
+![](image/andgateschematic.png)
+
+Here's the AND submodule with it's simulated output in ngspice
+
+![](image/andoutput.png)
 
 
 

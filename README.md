@@ -77,5 +77,10 @@ The NOT and GATE modules now available in the parts bin in eSim are used to impl
 
 Schematic is paired with it's subcircuits from the eSim subcircuit library and converted to it's Ngspice files.
 
+Here's the simulated output for the 2:4 decoder.
+
+![](images/2to4simulatedoutput.png)
+
+
 
 

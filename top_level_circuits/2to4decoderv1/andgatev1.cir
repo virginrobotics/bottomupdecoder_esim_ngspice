@@ -1,0 +1,19 @@
+* C:\FOSSEE\eSim\library\SubcircuitLibrary\andgatev1\andgatev1.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 02/10/22 10:04:09
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+M1  Net-_M1-Pad1_ /in1 /vdd /vdd mosfet_p		
+M2  Net-_M1-Pad1_ /in2 /vdd /vdd mosfet_p		
+M3  Net-_M1-Pad1_ /ena /vdd /vdd mosfet_p		
+M4  Net-_M1-Pad1_ /in1 Net-_M4-Pad3_ Net-_M4-Pad3_ mosfet_n		
+M5  Net-_M4-Pad3_ /in2 Net-_M5-Pad3_ Net-_M5-Pad3_ mosfet_n		
+M6  Net-_M5-Pad3_ /ena GND GND mosfet_n		
+U1  /vdd /in1 /in2 /ena /out PORT		
+M8  /out Net-_M1-Pad1_ GND GND mosfet_n		
+M7  /out Net-_M1-Pad1_ /vdd /vdd mosfet_p		
+
+.end

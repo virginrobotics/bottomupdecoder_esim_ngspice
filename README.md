@@ -69,5 +69,13 @@ Here's the AND submodule with a NOT submodule to test compaitinility with the ng
 
 ![](images/andnotoutput.png)
 
+<h2>2:4 Decoder submodule</h2>
+
+The NOT and GATE modules now available in the parts bin in eSim are used to implement a 2:4 decoder as shown the schematic. 
+
+![](images/2to4decoder_schematic.png)
+
+Schematic is paired with it's subcircuits from the eSim subcircuit library and converted to it's Ngspice files.
+
 
 

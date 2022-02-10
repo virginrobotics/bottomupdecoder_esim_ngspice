@@ -111,4 +111,14 @@ After spending a considerable time scrolling to the New Subcircuit section in th
 
 ![](images/pinnumber.png)
 
+<h2>EDA tools used</h2>
+
+###eSim
+
+As taken from their [site](https://esim.fossee.in/home). It also installs ngspice for you of you follow instructions [here](https://esim.fossee.in/downloads)
+
+###SkyWater SKY130 PDK
+
+All mosfets used in the project were sky130 models so the design can be fabricated in their shuttle program for tapeouts. More can be learned [here](https://skywater-pdk.readthedocs.io/en/main/)
+
 

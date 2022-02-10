@@ -32,7 +32,7 @@ while doing this project for the SFAL hackathon.
 7. [Recreating output](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#recreate-simulation-output)
 8. [EDA tools used](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#eda-tools-used)
 9. [Improvements](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#things-to-improve)
-10.[Thanks to](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#thanks-to)
+10. [Thanks to](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#thanks-to)
 
 <hr></hr>
 

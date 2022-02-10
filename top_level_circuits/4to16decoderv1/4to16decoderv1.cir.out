@@ -1,0 +1,18 @@
+* c:\users\prem\esim-workspace\4to16decoderv1\4to16decoderv1.cir
+
+.include 2to4decoderv1.sub
+x1 /vdd /in3 /in2 net-_x1-pad4_ net-_x1-pad5_ net-_x1-pad6_ net-_x1-pad7_ /ena 2to4decoderv1
+x2 /vdd /in1 /in0 /d0 /d1 /d2 /d3 net-_x1-pad4_ 2to4decoderv1
+x3 /vdd /in1 /in0 /d4 /d5 /d6 /d7 net-_x1-pad5_ 2to4decoderv1
+x4 /vdd /in1 /in0 /d8 /d9 /d10 /d11 net-_x1-pad6_ 2to4decoderv1
+x5 /vdd /in1 /in0 /d12 /d13 /d14 /d15 net-_x1-pad7_ 2to4decoderv1
+* u1  /vdd /in3 /in2 /ena /in1 /in0 /d0 /d1 /d2 /d3 /d4 /d5 /d6 /d7 /d8 /d9 /d10 /d11 /d12 /d13 /d14 /d15 port
+.tran 0e-00 0e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end

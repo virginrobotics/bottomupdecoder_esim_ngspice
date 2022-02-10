@@ -1,0 +1,16 @@
+* C:\Users\PREM\eSim-Workspace\4to16decoderv1\4to16decoderv1.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 02/10/22 21:03:06
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  /vdd /in3 /in2 Net-_X1-Pad4_ Net-_X1-Pad5_ Net-_X1-Pad6_ Net-_X1-Pad7_ /ena 2to4decoderv1		
+X2  /vdd /in1 /in0 /d0 /d1 /d2 /d3 Net-_X1-Pad4_ 2to4decoderv1		
+X3  /vdd /in1 /in0 /d4 /d5 /d6 /d7 Net-_X1-Pad5_ 2to4decoderv1		
+X4  /vdd /in1 /in0 /d8 /d9 /d10 /d11 Net-_X1-Pad6_ 2to4decoderv1		
+X5  /vdd /in1 /in0 /d12 /d13 /d14 /d15 Net-_X1-Pad7_ 2to4decoderv1		
+U1  /vdd /in3 /in2 /ena /in1 /in0 /d0 /d1 /d2 /d3 /d4 /d5 /d6 /d7 /d8 /d9 /d10 /d11 /d12 /d13 /d14 /d15 PORT		
+
+.end

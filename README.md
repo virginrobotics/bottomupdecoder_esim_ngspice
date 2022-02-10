@@ -81,6 +81,9 @@ A library part for was created for the same and here's the simulated output.
 
 ![](images/2to4simulatedoutput.png)
 
+<h2>Realizing the 4:16 decoder using 2:4 submodules</h2>
+
+5 2:4 Decoder modules are used to implement the final 4:16 decoder
 
 
 

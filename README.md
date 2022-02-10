@@ -129,6 +129,7 @@ Right away, on closer inspection, there are many false outputs at the decoder ou
 
 <h2>Thanks to</h2>
 
-#### Thanks to [VSD](https://www.vlsisystemdesign.com/basic_courses/) and [SFAL](https://www.sfalcoe.com/)
-#### Thanks to [Kunal](https://github.com/kunalg123) , [Sumanto](https://github.com/Eyantra698Sumanto) and everybody in the hackathon forum for the help. Had a great time.
+#### [VSD](https://www.vlsisystemdesign.com/basic_courses/) and [SFAL](https://www.sfalcoe.com/) for organizing the event
+#### [Kunal](https://github.com/kunalg123) , [Sumanto](https://github.com/Eyantra698Sumanto) and everybody in the hackathon forum for the help. Had a great time.
+#### [Samir Durgoji](https://github.com/SameerSDurgoji) for the eSim walktrough
 

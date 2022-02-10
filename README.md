@@ -111,6 +111,14 @@ After spending a considerable time scrolling to the New Subcircuit section in th
 
 ![](images/pinnumber.png)
 
+<h2>Recreate simulation output</h2>
+
+- Download the 4:16 decoder simulation files.
+- Move to the directory
+- Use the following command to run the .cir.out file 
+  ```ngspice <filename>.cir.out```
+
+
 <h2>EDA tools used</h2>
 
 ### eSim

@@ -109,6 +109,6 @@ Another problem that I spent days struggling with but solved after 5 minutes rea
 
 After spending a considerable time scrolling to the New Subcircuit section in the [eSim manual](https://static.fossee.in/esim/manuals/eSim_Manual_2020_August.pdf) :) . The pin numbers for the ports have to match on the subcircuit and the library part being created for it. 
 
-![](images/pinerror.png)
+![](images/pinnumber.png)
 
 

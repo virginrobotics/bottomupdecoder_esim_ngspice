@@ -125,7 +125,7 @@ All mosfets used in the project were sky130 models so the design can be fabricat
 
 Right away, on closer inspection, there are many false outputs at the decoder output which can be eliminated using a debouncing mechanism.
 
-![](images/falseoutput.jpg)
+![](images/falseoutput.png)
 
 <h2>Thanks to</h2>
 

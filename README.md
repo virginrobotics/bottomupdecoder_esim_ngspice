@@ -23,18 +23,17 @@ while doing this project for the SFAL hackathon.
 
 <h2> Navigation: </h2>
 
-1. [A 4:16 Decoder](-)
-2. [eSim FOSSEE](-)
-3. [NOT Gate submodule](-)
-4. [AND Gate submodule](-)
-5. [Testing](-)
-6. [2:4 Decoder and submodule](-)
-7. [4:16 Decoder](-)
-8. [Simulation Result](-)
-9. [Important Mistakes](-)
-10. [EDA tools used](-)
-11. [Thanks to](-)
-12. [Improvements](-)
+1. [A 4:16 Decoder](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#-a-416-decoder-)
+2. [NOT Gate submodule](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#not-gate-submodule)
+3. [AND Gate submodule](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#and-gate-submodule)
+4. [2:4 Decoder and submodule](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#24-decoder-submodule)
+5. [4:16 Decoder](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#realizing-the-416-decoder-using-24-submodules)
+6. [Important mistakes](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#important-mistakes)
+7. [Recreating output](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#recreate-simulation-output)
+8. [EDA tools used](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#eda-tools-used)
+9. [Improvements](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#things-to-improve)
+10.[Thanks to](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#thanks-to)
+
 <hr></hr>
 
 <h3> A 4:16 Decoder </h3>

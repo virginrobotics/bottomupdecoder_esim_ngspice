@@ -91,4 +91,13 @@ The simulated output shows only one output line is high at any given time and co
 
 ![](images/4to16output.png)
 
+<h2>Important mistakes</h2>
+
+###Placing sky130 library headers in the right place
+
+When creating circuits with subcircuit elements in them, multiple files are created for the project by eSim, but to simulate waveforms in ngspice - only the .cir.out file of the top circuit and the SUB files of the subcircuits are needed. 
+In the early attempts , I placed the sky130 lib headers in the SUB files and not in the .cir.out file. It kept crashing ngspice and it took a while before someone pointed it out in the hackathon forum to me. 
+Here's what you shouldn't do when you have circuits with multiple subcircuits in the same circuit.
+
+![](images/error1.png)
 

@@ -113,12 +113,22 @@ After spending a considerable time scrolling to the New Subcircuit section in th
 
 <h2>EDA tools used</h2>
 
-###eSim
+### eSim
 
 As taken from their [site](https://esim.fossee.in/home). It also installs ngspice for you of you follow instructions [here](https://esim.fossee.in/downloads)
 
-###SkyWater SKY130 PDK
+### SkyWater SKY130 PDK
 
 All mosfets used in the project were sky130 models so the design can be fabricated in their shuttle program for tapeouts. More can be learned [here](https://skywater-pdk.readthedocs.io/en/main/)
 
+<h2>Things to improve</h2>
+
+Right away, on closer inspection, there are many false outputs at the decoder output which can be eliminated using a debouncing mechanism.
+
+![](images/falseoutput.jpg)
+
+<h2>Thanks to</h2>
+
+#### Thanks to [VSD](https://www.vlsisystemdesign.com/basic_courses/) and [SFAL](https://www.sfalcoe.com/)
+#### Thanks to [Kunal](https://github.com/kunalg123) , [Sumanto](https://github.com/Eyantra698Sumanto) and everybody in the hackathon forum for the help. Had a great time.
 

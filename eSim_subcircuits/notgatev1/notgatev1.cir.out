@@ -1,0 +1,14 @@
+* c:\fossee\esim\library\subcircuitlibrary\notgatev1\notgatev1.cir
+
+m2  /not_output /not_input gnd gnd mosfet_n
+m1  /not_output /not_input /vdd /vdd mosfet_p
+* u1  /vdd /not_input /not_output port
+.tran 0e-00 0e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end

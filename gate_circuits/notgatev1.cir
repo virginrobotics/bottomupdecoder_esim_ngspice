@@ -1,0 +1,16 @@
+* C:\Users\PREM\eSim-Workspace\notgatev1\notgatev1.cir
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+xM2  not_output not_input GND GND sky130_fd_pr__nfet_01v8 w=.42 l=.5		
+xM1  not_output not_input vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+
+Vdd vdd 0 3.3
+Vd0 not_input 0 pulse(0 3 0s 0s 0s 5us 10us)
+
+.tran 0.1us 20us
+
+.control
+run
+plot V(not_input) V(not_output)+5 V(vdd)+10
+.endc		
+.end

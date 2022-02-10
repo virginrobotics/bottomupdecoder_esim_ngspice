@@ -1,0 +1,9 @@
+* Subcircuit notgatev1
+.subckt notgatev1 vdd not_input not_output
+ 
+* c:\fossee\esim\library\subcircuitlibrary\notgatev1\notgatev1.cir
+xm2  not_output not_input gnd gnd sky130_fd_pr__nfet_01v8 w=.42 l=.5
+xm1  not_output not_input vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+* Control Statements
+
+.ends notgatev1

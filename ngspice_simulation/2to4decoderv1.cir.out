@@ -1,0 +1,25 @@
+* c:\users\prem\esim-workspace\2to4decoderv1\2to4decoderv1.cir
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+.include andgatev1.sub
+.include notgatev1.sub
+x1 vdd in1 net-_x1-pad3_ notgatev1
+x2 vdd in2 net-_x2-pad3_ notgatev1
+x3 vdd net-_x1-pad3_ net-_x2-pad3_ ena d0 andgatev1
+x4 vdd in1 net-_x2-pad3_ ena d1 andgatev1
+x5 vdd in2 net-_x1-pad3_ ena d2 andgatev1
+x6 vdd in2 in1 ena d3 andgatev1
+
+Vdd vdd 0 3.3
+Vin_1 ena 0 3
+Vd0 in1 0 pulse(0 3 0s 0s 0s 5us 10us)
+Vd1 in2 0 pulse(0 3 0s 0s 0s 10us 20us)
+
+.tran 0.1us 20us
+
+* Control Statements 
+.control
+run
+plot V(in1) V(in2)+5 V(ena)+10 V(d0)+15 V(d1)+20 V(d2)+25 V(d3)+30
+.endc
+.end

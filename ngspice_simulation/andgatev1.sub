@@ -1,0 +1,16 @@
+* Subcircuit andgatev1
+
+
+.subckt andgatev1 vdd in1 in2 ena out 
+* c:\fossee\esim\library\subcircuitlibrary\andgatev1\andgatev1.cir
+xm1  net-_m1-pad1_ in1 vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+xm2  net-_m1-pad1_ in2 vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+xm3  net-_m1-pad1_ ena vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+xm4  net-_m1-pad1_ in1 net-_m4-pad3_ net-_m4-pad3_ sky130_fd_pr__nfet_01v8 w=.42 l=.5
+xm5  net-_m4-pad3_ in2 net-_m5-pad3_ net-_m5-pad3_ sky130_fd_pr__nfet_01v8 w=.42 l=.5
+xm6  net-_m5-pad3_ ena gnd gnd sky130_fd_pr__nfet_01v8 w=.42 l=.5
+xm8  out net-_m1-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 w=.42 l=.5
+xm7  out net-_m1-pad1_ vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.5
+* Control Statements
+
+.ends andgatev1

@@ -1,0 +1,15 @@
+* Subcircuit 2to4decoderv1
+.subckt 2to4decoderv1 vdd in1 in2 d0 d1 d2 d3 ena
+ 
+* c:\fossee\esim\library\subcircuitlibrary\2to4decoderv1\2to4decoderv1.cir
+.include andgatev1.sub
+.include notgatev1.sub
+x1 vdd in1 net-_x1-pad3_ notgatev1
+x2 vdd in2 net-_x2-pad3_ notgatev1
+x3 vdd net-_x1-pad3_ net-_x2-pad3_ ena d0 andgatev1
+x4 vdd in1 net-_x2-pad3_ ena d1 andgatev1
+x5 vdd in2 net-_x1-pad3_ ena d2 andgatev1
+x6 vdd in2 in1 ena d3 andgatev1
+* Control Statements
+
+.ends 2to4decoderv1

@@ -1,0 +1,21 @@
+* c:\users\prem\esim-workspace\comb_testv1\comb_testv1.cir
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+.include notgatev1.sub
+.include andgatev1.sub
+x1 vdd in1 in2 ena net-_x1-pad5_ andgatev1
+x2 vdd net-_x1-pad5_ out notgatev1
+
+Vdd vdd 0 3.3
+Vin_1 ena 0 3
+Vd0 in1 0 pulse(0 3 0s 0s 0s 5us 10us)
+Vd1 in2 0 pulse(0 3 0s 0s 0s 10us 20us)
+
+.tran 0.1us 20us
+
+* Control Statements 
+.control
+run
+plot V(in1) V(in2)+5 V(ena)+10 V(out)+15
+.endc
+.end

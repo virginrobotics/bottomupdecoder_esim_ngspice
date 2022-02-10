@@ -113,7 +113,7 @@ After spending a considerable time scrolling to the New Subcircuit section in th
 
 <h2>Recreate simulation output</h2>
 
-- Download the 4:16 decoder simulation files.
+- Download the ngspice simulation folder and put the [sky130](https://static.fossee.in/esim/installation-files/sky130_fd_pr.zip) folder in it.
 - Move to the directory
 - Use the following command to run the .cir.out file 
   ```ngspice <filename>.cir.out```

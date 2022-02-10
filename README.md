@@ -85,5 +85,7 @@ A library part for was created for the same and here's the simulated output.
 
 5 2:4 Decoder modules are used to implement the final 4:16 decoder
 
+![](images/4to16decoderschematic.png)
+
 
 

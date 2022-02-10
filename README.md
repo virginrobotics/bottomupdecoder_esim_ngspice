@@ -33,6 +33,7 @@ while doing this project for the SFAL hackathon.
 8. [EDA tools used](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#eda-tools-used)
 9. [Improvements](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#things-to-improve)
 10. [Thanks to](https://github.com/virginrobotics/bottomupdecoder_esim_ngspice#thanks-to)
+11. [References](-)
 
 <hr></hr>
 
@@ -139,4 +140,8 @@ Right away, on closer inspection, there are many false outputs at the decoder ou
 #### [VSD](https://www.vlsisystemdesign.com/basic_courses/) and [SFAL](https://www.sfalcoe.com/) for organizing the event
 #### [Kunal](https://github.com/kunalg123) , [Sumanto](https://github.com/Eyantra698Sumanto) and everybody in the hackathon forum for the help. Had a great time.
 #### [Samir Durgoji](https://github.com/SameerSDurgoji) for the eSim walktrough
+
+<h2>References</h2>
+
+- Rajbeer Singh, Manoj Kumar Bandil “An Analysis of CMOS based Low Power 2:4 Decoder at 32nm node using LECTOR Technique” IRJET, vol. 6, issue. 12, pp. 732, Dec. 2019
 

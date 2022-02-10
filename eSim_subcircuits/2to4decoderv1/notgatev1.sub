@@ -1,8 +1,0 @@
-* Subcircuit notgatev1
-.subckt notgatev1 /vdd /not_input /not_output 
-* c:\fossee\esim\library\subcircuitlibrary\notgatev1\notgatev1.cir
-m2  /not_output /not_input gnd gnd mosfet_n
-m1  /not_output /not_input /vdd /vdd mosfet_p
-* Control Statements
-
-.ends notgatev1

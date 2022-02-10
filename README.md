@@ -115,7 +115,7 @@ After spending a considerable time scrolling to the New Subcircuit section in th
 
 - Download the ngspice simulation folder and put the [sky130](https://static.fossee.in/esim/installation-files/sky130_fd_pr.zip) folder in it.
 - Move to the directory
-- Use the following command to run the .cir.out file 
+- If on windows, open .cir or .cir.out files with ngspice or use the following command to run the .cir.out or .cir file 
   ```ngspice <filename>.cir.out```
 
 

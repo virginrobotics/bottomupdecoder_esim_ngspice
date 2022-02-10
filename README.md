@@ -87,5 +87,8 @@ A library part for was created for the same and here's the simulated output.
 
 ![](images/4to16decoderschematic.png)
 
+The simulated output shows only one output line is high at any given time and corresponds to the decimal address encoded in the input.
+
+![](images/4to16output.png)
 
 
